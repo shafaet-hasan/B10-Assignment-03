@@ -13,11 +13,11 @@
 
 </head>
 <body class="lg:m-0 m-1">
-  <div class="bg-[#f4f4f4]">
-    <header class="container mx-auto bg-[#f4f4f4] ">
+  <div class="bg-gradient-to-b from-[#f4f4f4] via-[#ffffff] h-auto shadow-2xl mb-10 lg:pb-12">
+    <header class="container mx-auto bg-gradient-to-b from-[#f4f4f4] via-[#ffffff]">
         <div class="navbar bg-base-100 bg-[#f4f4f4]">
             <div class="navbar-start">
-              <div class="absolute left-[27rem] w-8 h-8 p-1.5 rounded-full bg-white">
+              <div class="absolute left-[27rem] w-8 h-8 p-1.5 rounded-full lg:bg-[#f4f4f4] bg-white">
                 <div tabindex="0" role="button" class="lg:hidden justify-end">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -89,7 +89,60 @@
     </header>
   </div>
     <main>
+      <section class= "bg-[#f4f4f4] lg:m-0 m-1.5">
+        <div class="container mx-auto lg:block hidden">
+          <img class="justify-center mb-5" src="./assets/Vector.png" alt="">
+        </div>
+          <!-- Container -->
+    <div class="container mx-auto flex flex-col lg:flex-row gap-10 pb-10 px-5">
+        
+      <!-- Left Content -->
+      <div class="lg:w-1/2 space-y-6">
+          <!-- About Us -->
+           <div class="flex lg:justify-start justify-center">
+          <button class="btn bg-white text-gray-600 text-xl lg:px-7 px-11 py-2 rounded-full font-bold"> <i class="fa-solid fa-arrow-right text-gray-600"></i> About Us  </button>
+        </div>
+          <!-- Title -->
+          <div class="space-y-2">
+            <h1 class="lg:text-5xl text-3xl font-bold text-gray-800 mb-4">We design thoughtful, <br> liveable spaces</h1>
+            <p class="text-gray-600 text-lg p-2.5">
+                The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+        </div>
 
+          <!-- Cards Section -->
+          <div class="space-y-4">
+              <!-- Commercial Card -->
+              <div class="p-5 bg-white rounded-lg shadow-lg flex items-start space-x-4">
+                <div class="p-3 gap-8">
+                    <img class="h-20" src="./assets/commercial.png" alt="">
+                </div>
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-800">Commercial</h2>
+                    <p class="text-gray-600 text-[16px] w-[85%]">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+            </div>
+
+              <!-- Residential Card -->
+              <div class="p-5 bg-white rounded-lg shadow-lg items-start space-x-4 ">
+                <div class="p-3 flex gap-8">
+                    <img src="./assets/residential.png" alt="">
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-800">Residential</h2>
+                    <p class="text-gray-600 text-[16px] w-[85%]">The barn house captivates with its blend of rustic charm and modern.</p>
+                </div>
+            </div>
+        </div>
+          </div>
+      </div>
+
+      <!-- Right Image -->
+      <div class="lg:w-1/2">
+        <img src="./assets/Rectangle.png" alt="Modern Barn House" class="w-full rounded-lg shadow-lg">
+      </div>
+
+  </div>
+      </section>
     </main>
     <footer>
 
